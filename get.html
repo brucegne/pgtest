@@ -7,6 +7,13 @@
 <script src="js/main.js"></script>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+<!-- map specific -->
+<link rel="stylesheet" href="js/leaflet/leaflet.css" />
+<script src="js/leaflet/leaflet.js"></script>
+<style>
+#map { height: 250px; }
+</style>
 </head>
 
 <body>
@@ -26,9 +33,9 @@
 
 				<div class="nav-collapse">
 					<ul class="nav">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="add.html">Add Tip</a></li>
-						<li><a href="get.html">Get Tips</a></li>
+						<li class="active"><a href="get.html">Get Tips</a></li>
 					</ul>
 				</div>
 
@@ -38,14 +45,10 @@
 
 	<div class="container">
 
-		<img src="images/ctl.png" title="CowTipLine">
-		<p>
-			Tipping Cows? Need to find a cow? Welcome to 
-			the app that hooks you up!
-		</p>
-
-		<a href="add.html" class="btn btn-block">Add Tip</a>
-		<a href="get.html" class="btn btn-block">Get Tips</a>
+		<h1>Current Tips</h1>
+		
+		<div id="tipdisplay"></div>
+		<div id="map"></div>
 
 	</div>
 
