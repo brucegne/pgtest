@@ -5,8 +5,8 @@
         version   = "1.0.0">
     <name>CowTipLine</name>
 
-    <author href="http://www.raymondcamden.com" email="raymondcamden@gmail.com">
-        Raymond Camden
+    <author href="http://www.raymondcamden.com" email="brucegne@gmail.com">
+        Bruce E. Gordon
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
