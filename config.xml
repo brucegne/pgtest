@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.appsmade4u.pgtest"
         version   = "1.0.0">
-    <name>CowTipLine</name>
+    <name>CowTippyThing</name>
 
     <author href="http://www.raymondcamden.com" email="brucegne@gmail.com">
         Bruce E. Gordon
